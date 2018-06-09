@@ -86,7 +86,7 @@ $(function() {
 
 
     /* TODO: Write a new test suite named "Initial Entries" */
-    describe('Initial Entries', () => {
+    describe('Initial Entries', function() {
 
         /* TODO: Write a test that ensures when the loadFeed
          * function is called and completes its work, there is at least
@@ -101,7 +101,7 @@ $(function() {
         });
 
 
-        it("there is at least a single .entry withing .feed after loadFeed() is called", ((done) => {
+        it("there is at least a single .entry within .feed after loadFeed() is called", ((done) => {
             var numberEntries = document.querySelector(".feed").getElementsByClassName("entry").length;
             expect(numberEntries).toBeGreaterThan(0);
             done();
@@ -119,7 +119,7 @@ $(function() {
     });
     
     /* TODO: Write a new test suite named "New Feed Selection" */
-    describe('New Feed Selection', () => {
+    describe('New Feed Selection', function() {
 
         /* TODO: Write a test that ensures when a new feed is loaded
          * by the loadFeed function that the content actually changes.
@@ -135,7 +135,7 @@ $(function() {
                 });
             });
         });
-        it("the content changes by loadFeed()", ((done)=> {
+        it("the content changes by loadFeed()", ((done) => {
             var newFeedSelection = document.querySelector(".feed").innerHTML;
             expect(initFeedSelection).not.toBe(newFeedSelection);
             done();
