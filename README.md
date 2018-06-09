@@ -23,9 +23,9 @@ The tests are included in the file /jasmine/spec/feedreader.js.
 
 * If you see the green part in the bottom of the page, it means that the application was successful and all the checks passed.
 
-![Screenshot1](/img/Check_pass.png "Check_pass")
+![Screenshot1](/img/Check_pass.png "Check pass")
 
-* If one or more checks failed, Jasmine flags them with red and gives the relevant details.
+* If one or more checks failed, Jasmine flags them in red and gives the relevant details.
 
 ![Screenshot2](/img/Check_failed.png "Check failed")
 
