@@ -32,9 +32,9 @@ The tests are included in the file /jasmine/spec/feedreader.js.
 ___
 
 
-# Tools & Resources used
+# Tools used
 
-* **HTML**, **CSS**, & **Javascript**.
+* **HTML**, **CSS**, **Javascript** & **jQuery**.
 * **[Jasmine](http://jasmine.github.io/)**. It is an open source, behavior-driven development framework for testing JavaScript code. The version used here is 2.1.2. while the latest release (as of 06/2018) is 3.1.0.
 ___
 
